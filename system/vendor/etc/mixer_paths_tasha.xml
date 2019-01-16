@@ -596,6 +596,7 @@
     </path>
 
     <path name="deep-buffer-playback">
+    	<ctl name="RX INT0_1 MIX1 INP0" value="ZERO" />
         <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia1" value="1" />
     </path>
 
@@ -665,6 +666,7 @@
     </path>
 
     <path name="low-latency-playback">
+    	<ctl name="RX INT0_1 MIX1 INP0" value="ZERO" />
         <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia5" value="1" />
     </path>
 
@@ -799,6 +801,7 @@
     </path>
 
     <path name="compress-offload-playback">
+    	<ctl name="RX INT0_1 MIX1 INP0" value="ZERO" />
         <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia4" value="1" />
     </path>
 
