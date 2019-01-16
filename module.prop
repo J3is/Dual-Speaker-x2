@@ -1,7 +1,7 @@
 id=dslex2
 name=DualSpeaker for Le Max 2 - Treble
-version=v1
-versionCode=1
+version=v1.1
+versionCode=2
 author=Jeis (Matteo Cerri)
 description=Systemless Way of Enabling DualSpeaker/PseudoStereo SoundMod for LeEco Le Max 2 (only Treble-enabled devices supported).
 minMagisk=17000
