@@ -23,7 +23,7 @@ The file comes from an unmodified vendor partition from the AOSP Extended ROM.<b
 The latest release of the module comes in two versions: 
 <ul>
 	<li> The normal one, which has gain for the earpiece set to 92: quieter and less noticeable, but with no distortion.</li>
-	<li> The "HighVolume" one, which has the gain set to 100: the earpiece is louder, but the sound could get distorted, especially with bass-heavy music. Also, it has a higher risk of damaging the earpiece speaker.</li>
+	<li> The "HighVolume" one, which has the gain set to 100: the earpiece is louder, but the sound could get distorted, especially with bass-heavy music. Also, it has a higher risk of damaging your speaker.</li>
 </ul>
 </p>
 	
