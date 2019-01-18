@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Mixer file modified by J3is@XDA-Developers (Matteo Cerri)
+<!-- Mixer file modified by J3is@XDA-Developers (Matteo Cerri) -->
+<!-- High volume version -->
 <mixer>
     <!-- These are the initial mixer settings -->
     <ctl name="Voice Rx Device Mute" id="0" value="0" />
