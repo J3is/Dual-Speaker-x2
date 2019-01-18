@@ -1,2 +1,3 @@
-v1.1 - Fixed earpiece outputting media audio when headphones are connected
+v1.2 - Fixed no audio from earpiece when playing audio messages. Raised earpiece volume from 90 to 92.
+v1.1 - Fixed earpiece outputting media audio when headphones are connected.
 v1 - Initial Release
