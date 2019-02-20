@@ -41,10 +41,13 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "DualSpeaker Magisk Template by Dante63"
+  ui_print "EUI Audio + Dual Speaker Mod for AOSP Extended"
+  ui_print "for Le Max 2"
+  ui_print "*******************************"
+  ui_print "SoundMod by Jeis (Matteo Cerri)"
   ui_print "*******************************"
   ui_print "*******************************"
-  ui_print "Dual Speaker Mod for Le Max 2 by Jeis (Matteo Cerri)"
+  ui_print "EUI Audio Mod by shivatejapeddi (Shiva Teja)"
   ui_print "*******************************"
 }
 
@@ -58,7 +61,6 @@ print_modname() {
 ###########################################################################
 # Make sure the Path is correct
 REPLACE="
-/system/vendor/etc/mixer_paths_tasha.xml
 "
 
 ##########################################################################################
@@ -77,7 +79,14 @@ set_permissions() {
   # then you place the path
   # set_perm  $MODPATH/system/etc/mixer_paths.xml
   # the permissions are --- rw- r-- r-- which is 0644
-  set_perm  $MODPATH/system/vendor/etc/mixer_paths_tasha.xml       0       0       0644
+  
+  set_perm_recursive  $MODPATH/system/vendor/bin/perfd       0       0       0755       0644
+  set_perm_recursive  $MODPATH/system/vendor/bin/msm_irqbalance       0       0       0755       0644
+  set_perm_recursive  $MODPATH/system/vendor/bin/energy-awareness       0       0       0755       0644
+  set_perm_recursive  $MODPATH/system/vendor/bin/adsprpcd       0       0       0755       0644
+  set_perm_recursive  $MODPATH/system/vendor/bin/hw/android.hardware.power@1.1-service.x2       0       0       0755       0644
+  set_perm_recursive  $MODPATH/system/vendor/bin/thermal-engine       0       0       0755       0644
+
 }
 
 ##########################################################################################
