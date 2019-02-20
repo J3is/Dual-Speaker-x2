@@ -1,3 +1,6 @@
+v2.0 - Now the package also works when the EUI Audio mod is installed.
+     - A new package has been created, which lets you enable the EUI Audio mod systemlessly, along with the stereo mod.
+
 v1.2 - Fixed no audio from earpiece when playing audio messages. Raised earpiece volume from 90 to 92.
 v1.1 - Fixed earpiece outputting media audio when headphones are connected.
 v1 - Initial Release
